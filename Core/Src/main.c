@@ -154,7 +154,7 @@ int main(void) {
 		ssd1306_WriteString(screenData, Font_7x10, White);
 
 		ssd1306_SetCursor(0, 51);
-		sprintf(screenData, "2024HT01151 ESZC427");
+		sprintf(screenData, "2024HT01151 ESZC424");
 		ssd1306_WriteString(screenData, Font_6x8, White);
 
 		ssd1306_UpdateScreen();
